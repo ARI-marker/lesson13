@@ -28,7 +28,7 @@ ol li{
     padding: 10px;
     margin-left: 30px;
 }
-table{
+/*table{
     border-collapse: collapse;
 }
 td,th{
@@ -46,4 +46,21 @@ div{
     background-color: cadetblue;
     width: 200px;
     height: 200px;
+}*/
+div{
+    overflow: visible;
+    background-color: chartreuse;
+    width: 200px;
+    height: 200px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td{
+    text-align:left;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: brown;
 }
