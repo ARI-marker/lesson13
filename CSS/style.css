@@ -1,0 +1,49 @@
+body{
+    color: darkblue;
+}
+/*ul{
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-image: url(../Images/test.png);
+}
+ol{
+    list-style-type: upper-roman;
+    list-style-type: lower-roman;
+}*/
+ul{
+    list-style-type:none;
+    padding: 0;
+    border:2px solid gray;
+}
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;
+}
+ol{
+    background: black;
+    padding: 15px;
+}
+ol li{
+    background: black;
+    padding: 10px;
+    margin-left: 30px;
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid gray;
+    padding: 15px;
+}
+tbody tr:nth-child(odd){
+    background-color: blueviolet;
+}
+tbody tr:nth-child(even){
+    background-color: blueviolet0;
+}
+div{
+    overflow: scroll;
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+}
